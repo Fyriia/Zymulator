@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<script async defer type="module" src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zymulator</title>
+</head>
+
+<body>
+<div id="weather-display"></div>
+<div class="hidden" id="dimmer"></div>
+<img id="sun" src="ZymAssets/newday.png">
+<div id="target">
+    <img id="default" src="ZymAssets/WhiteDog/default.gif" class="">
+    <img id="default2" src="ZymAssets/WhiteDog/default2.gif" class="hidden">
+    <img id="begging" src="ZymAssets/WhiteDog/begging.gif" class="hidden">
+    <img id="happy" src="ZymAssets/WhiteDog/happy.gif" class="hidden">
+    <img id="sad" src="ZymAssets/WhiteDog/sad.gif" class="hidden">
+</div>
+
+<img id="c2"  class="cloud" src="ZymAssets/clouds2.webp">
+<img id="c3" class="cloud" src="ZymAssets/clouds3.gif">
+<img id="c4" class="cloud" src="ZymAssets/clouds4.gif">
+<img id="c2-2"  class="cloud" src="ZymAssets/clouds2.webp">
+<img id="c3-2" class="cloud" src="ZymAssets/clouds3.gif">
+<img id="c4-2" class="cloud" src="ZymAssets/clouds4.gif">
+<img id="c5" class="cloud" src="ZymAssets/clouds5.gif">
+
+<img id="flakes1" class="flakes hidden" src="ZymAssets/snowflakes.gif">
+<img id="flakes2" class="flakes hidden" src="ZymAssets/snowflakes.gif">
+<img id="flakes3" class="flakes hidden" src="ZymAssets/snowflakes2.gif">
+<img id="flakes4" class="flakes hidden" src="ZymAssets/snowflakes2.gif">
+
+
+<img class="drops hidden" id="drops1" src="ZymAssets/99b232976a51bfb16e19de1c2003e611.gif">
+<img class="drops hidden" id="drops2" src="ZymAssets/99b232976a51bfb16e19de1c2003e611.gif">
+<img class="drops hidden" id="drops3" src="ZymAssets/99b232976a51bfb16e19de1c2003e611.gif">
+<div id="needs">
+    <img class="hidden" id="need-water" src="ZymAssets/sun-svgrepo-com(1).svg">
+    <img class="hidden" id="need-fire"  src="ZymAssets/cold-temperature-thermometer-svgrepo-com.svg">
+    <img class="hidden" id="need-food"  src="ZymAssets/hungry-man-svgrepo-com.svg">
+</div>
+
+<div id="utilityBar">
+    <img draggable="true" id="fire" src="ZymAssets/fire-wood-svgrepo-com(1).svg">
+    <img draggable="true" id="food" src="ZymAssets/food-meat-beef-stake-svgrepo-com.svg">
+    <img draggable="true" id="water" src="ZymAssets/food-water-bottle-svgrepo-com(1).svg">
+</div>
+<div id="buttons"><button id="rainy-button">Rain</button>
+    <button id="snowy-button">Snow</button>
+    <button id="cloudy-button">Clouds</button>
+    <button id="sunny-button">Sun</button></div>
+
+</body>
+
+</html>
